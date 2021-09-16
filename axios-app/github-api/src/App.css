@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.item-container {
+  height: 400px;
+  width: 400px;
+  overflow: scroll;
+  border: 1px solid rgb(11, 11, 34);
+  margin: 10px auto;
+  background-color: rgb(209, 207, 209);
+}
+.items {
+  height: 20px;
+  padding: 2px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid rgb(59, 31, 31);
+  margin: 10px auto;
+  color: blue;
+}
+h1{
+  color: blue;
+  
+}
+input, button{
+  height: 30px;
+  margin: 10px auto;
+  border: 2px solid rgb(53, 16, 16);
+  border-radius: 10px;
+  width: 200px;
+  color: blue;
+  background-color: rgb(209, 207, 209);
+
+}
+button{
+  width: 100px;
+  
+
+}
