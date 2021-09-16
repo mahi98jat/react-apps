@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  height: 40px;
+  width: 300px;
+  background: transparent;
+  border:3px solid rgb(6, 26, 26);
+  border-radius: 10px;
+}
+.btn-add{
+  height: 40px;
+  width: 100px;
+  background: transparent;
+  border:3px solid rgb(6, 26, 26);
+  border-radius: 10px;
+}
+.list-container{
+  height: 300px;
+  width: 400px;
+  background: transparent;
+  border:3px solid rgb(6, 26, 26);
+  border-radius: 10px;
+  
+  margin: 10px auto;
+}
+.list-item{
+  height: 30px;
+  width: 300px;
+  background: transparent;
+  border:1px solid rgb(6, 26, 26);
+  border-radius: 10px;
+  
+  margin: 10px auto;
+}
