@@ -44,6 +44,11 @@
   margin: 10px auto;
   background-color: rgb(209, 207, 209);
 }
+.items:hover, input:hover, button:hover{
+  background-color: rgb(104, 170, 170);
+  font-size: 18px;
+  font-weight: 600px;
+}
 .items {
   height: 20px;
   padding: 2px;
@@ -65,10 +70,13 @@ input, button{
   width: 200px;
   color: blue;
   background-color: rgb(209, 207, 209);
+  border-right:none;
+  border-left: none;
 
 }
 button{
   width: 100px;
+  
   
 
 }

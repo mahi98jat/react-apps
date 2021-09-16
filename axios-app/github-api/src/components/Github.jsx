@@ -8,6 +8,9 @@ const Github = () => {
   const handleSearch = () => {
     setLoading(true);
     setIsError(false);
+    fetUsersData();
+  };
+  const fetUsersData = () => {
     fetchUsers(query)
       .then((res) => {
         setUsers(res.data.items);
@@ -19,7 +22,6 @@ const Github = () => {
         setLoading(false);
       });
   };
-
   return (
     <>
       <h1>Github</h1>
@@ -40,9 +42,11 @@ const Github = () => {
         </button>
       </div>
       {isError ? "please fill in text" : null}
-      <div className = "item-container">
+      <div className="item-container">
         {users?.map((items) => (
-          <div key={items.id} className = "items">{items.login}</div>
+          <div key={items.id} className="items">
+            {items.login}
+          </div>
         ))}
       </div>
     </>
