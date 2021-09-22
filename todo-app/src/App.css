@@ -1,8 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDw8PDw8PDw0QDQ0PDQ4PDQ8NDQ8NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLysBCgoKDg0OFQ8QFS0dHR0tLS0tKysrLSsrLS0rLSstLSsvLSstLSstLS03LSstLS4rLS0tLS0wLS0tNy0zKy0tLf/AABEIALEBHAMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAAAAQIDBAUGB//EAD0QAAICAQEFBQQHBQkBAAAAAAABAhEDIQQSMUFRYXGBscEFE5GhIjJSYnLR8DRCc4KSFCMkM1N0s8LxBv/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACARAQEBAQACAgMBAQAAAAAAAAABEQIDITFRBBITQTL/2gAMAwEAAhEDEQA/AP3EAAAAAAAAAAAABSdGUpdRzfyMZPmGbTc2G+zFzEpMM66oz+JrGRyRdm0JBqVuAAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYT4MwycDpnHijGUL5hiubI6RGKTNpRrRiS6BnF4zbHzMoRo2xoNRvHgMSQw2AATAGyd8iUibM6NlIZipFKY0WFiTAB2MkBooBANFAIChgAFAAAAAAAAAAAAAAAAAACsAFKNmUsfQ2E0TUxz9jXxFu9DooFEqYxjDqbQQ1AoLIAAmyKYmKwsmjKRMmatGORGaiGy4MhItEGqZSZCGi6qrGSAFAICigEBRQyRl0MAAoAAAAAAAAQEAKwETQwsTAgB2KwGhjJGihg2JEyY0NshsViMWirCyQJouzKcyzJonVoENAkMsRSZSJRSZVMAAAAAKGMkYDGICihkjNQMAAoBDEyBMBNisgYrATIGwEBA0FiBAUCFYygM5FkSM9CbCxxS1tkWYFCboVg1YAplJ2Yz0Fhl8Co6GRY94GVQikyB2EaJjM1IqwqgEBQ0MQFFAIZQ0MkZRQCQzQiUiJZBSZlMxaNFMdmMGWmZ1GoERZTYUwsnfFa6gVYnIK7RNpAVEq7M4yuxPIloXRo2S2ZOZLmZtFyJsh5PF9C1K+fgjOIDSJC72UiyAnEzSo1ZFFAigQNhUyZNhNkXrX6rqEaLhfXRerNInLLOm+zl3HRCWg2DRMZIWVVDJTKRQxiQ0UAxDKGMQzQxlEhws2ZJijDdocSsiFFHPfYAsGgoqBy6mba6jkjnzvQlo3WZfaRLzR7X8kcCY0zn/SprveTR8uBhKY4PTwMpHTRtCYKXyOf3lDWVU/Azo0k673x7gjOu1/JGbl9Nfy18NCMMtX1rTvGjujkRcZcjkjJ1rxvS+NGqfDu9Syjq3tDKcyMk+PeYe8LauuhTHvnDLa4oUdtRj+vO5qO5tU9NevYcsp/W7q+LXpZrHIpLQxcHr3eo6vr0M4nTjzHMyrXK+Cu648znzaPQWSykznxvQ1TO8qtkWjKLNImoqkNCGigGhDRQ0MSGaghkspkszQpMxnko1kjJ47MUJTtFRJ3KHYQ5nPkjaLlM4dp21R0Md9zmbRpDDqRNU6M8O3aGmLJvceJ5v683/kbLVaGWZNKzqwwLlhT0fM9PPuJjx4yt6hvatdVXjyOnJs+6c08dnn62BRk2vvR0a5118DaLT14Pn0ZEFwvSXKX5myj1jfbH9UNQ40uLvsV+Z0Y53q/Dv6GMYdIvx4GsV11fRcEdOKoz8O16s8zac1HruFo8L2jFqyfkdWc+hxyyO71p3T5MuE3Z6fsvLhns+5nWmGblHjqm3XDjq3p2HLtu0LLk3oxUIpKMYpJfRXWu8+f3xOeZ1Ovn/B27Flrid8si5HkYVod2FaHo8HkuYpcWaQxjjEtuj1cTfaKsW+Q5E2dB0QmdEZHHj4nRFmosdCkWYRZrGRqKoaFYIsFIYkM1BDEymSzNCAAMhNGOXRGk5Uc+SVkqVy7RkpOj5/Nmtuz29og3Z4m14HfA8H5cvpljh9oQTa1TTa1XGuh6PsfM5OTfZ8TiXs5TpvR/aXPvPX9m7JuKl11bPB4ee75J9LHsxpJdpUU32d+rIhS/Mvf001vnyo+9FZywt6at+CODJDU9NzlXFdNFqcObH2mPJPSVxtFQ0NGhI8+C0bYznNsRvmDqS0PL2vDbPTgwniTNeXx/vMV4ctmqCX2pbz7kqXnIyjgo9rNs3Dokl6+bM/7N2Hi6/Hu/Bjm2fGd8MOheLCoq3y68jeFSpppp8HyPX4vBk9jGOOl4mWZaHXL5Hie0dvliyuE1/dTh/dSrhOuDf64o69Xnie06ufLbfSdFKaPB9kZ8uV5Jzf0LSiqpX2frmeutDnz5f2mxnm7Nd0C1I5cWTkbpnWXWmymaQmctl45Gh2JlpmSKTNxpqmUZItGoGySyWKJZMizPLwMUYZZHK8hWWZg0efrv6RtvxSblokrb7BZdnjNKUappNNcGmZ5IpwlFuk4yTfRVxOHYfZ0pe7lmlag96GNSbitbV3wHrqZR6GPY6NopQbXNxTv5P0+Jqp2+7zMNqaTxybr6ag+6bUUv6t0vPj55+IKi77vM6V6IUMBoo33fNnWQxnJ132tOLOfJr/4zv3NKRk8JbB5scTvsG8Zp7ZhOGGU8TqacXf3d5WYbF7Q99knGOOW5G08n7t9DhbzOv1vyxbJcbRgWo1+uZpKPPp5DcDpOcaKCNI8QgtCox8jWKyyZCJtyi0m02mk1xTriaZcbJUQPCe1Zk47PO5OUqjxbkkr4846WfR7Pj3IRj0VX5nJtKqWGXJZUn3SjKK+bidjEDZybdhjki4zVxf6tdDobM8mqodTZhXkYMajHcSrduPrfjd+Jckbyx1NdJKn+Jar5X8hyxHmnNnpljiWqOtonFi5myid+Z6VmaY0LcNII1BvEaBDRuKpFolFI0qgACiWZ5lobEyRmweTkiZ0d2bEc/uzx9c2VHm+0NocN2G5KSyPdW6rbaduP9Kep34yVU5KmmoxfP8Aebr5br+J0QhRrjn2h4/VhtWD3kMkFpKUGov7M6uMvB0/AvHHzfmaQWr7/RHaRRsu0e8xQyLTfhCVc4uSWng/I3So4Ng+i82L/Tzb8f4eV76fdvOa/lPQNRSb5LxfQVPrfZVDXF9uq8im61ZRhtSUsclxUlu6/e09QlBJqkkuFJUuv5jmv8tdZ213JyXzSNJrWPf6Mme9Ri4kwWny+Bu4kQjp4y82MEQXHvf5m0UTCPHv9EaUIqWjNwNhUMHke3Nnzzx/4eSUkn9CSW7J6OMk+TTSZ0ez4pYcSTcluRd23dq+fedk9Fb0S1bPM2LaoJ+5Uk5J5HFR1XuruLtfdlH4EHdIyG5AkETkx3FpfW0cW+CktUVjlvJOqvk1qn0LopImexO6NQNIopRNYMvdlRhRskOiyKyopIvdHRrBKRQwKAAAAEAAZZTnYwPP38o8D2R+1ZvxT9D3hgOPgp4/VlQ4vwADpByx/ato/wBnsn/JtB6QAVWefgvxIeXjH8QAELJ9fH/P5Fy+su6XoAF+1MjHwQAAQ5/iZYgIAAADPaPqy/DLyPif/kv2nN/CX/QAM0fVzHjAAy3Y0AFVpEpCAqqGAGgwACgAAA//2Q==")
+
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -58,52 +58,50 @@
   border-radius: 10px;
   border: 2px solid rgb(194, 120, 120);
 }
-.show-completed{
+.show-completed {
   height: 250px;
   width: 600px;
   border-radius: 10px;
   border: 2px solid rgb(31, 9, 9);
   margin: auto;
   overflow: scroll;
-  
 }
-.todo-list{
+.todo-list {
   height: 400px;
   width: 800px;
   border: 3px solid rgb(121, 38, 38);
   overflow: scroll;
   margin: auto;
 }
-button{
+button {
   height: 50px;
   width: 150px;
-  background:transparent;
+  background: transparent;
   border-color: teal;
   margin: 10px;
   border-radius: 10px;
 }
-input{
+input {
   height: 50px;
   width: 300px;
-  background:transparent;
+  background: transparent;
   border-top: none;
   border-left: none;
-  border-right:none;
+  border-right: none;
   border-bottom: 3px solid teal;
   margin: 10px;
   border-radius: 10px;
 }
-.cplt-item{
- background: transparent;
+.cplt-item {
+  background: transparent;
   height: 30px;
   width: 400px;
- 
+
   margin: 10px 80px;
   float: left;
   padding: 10px;
   font-size: 22px;
   border-radius: 10px;
   border: 3px solid teal;
-  color:rgb(121, 38, 38)
-
+  color: rgb(121, 38, 38);
 }
