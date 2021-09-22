@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useContext } from "react";
+import FigmaUi from "./components/FigmaUi";
+import "./App.css";
+import { FigmaContext } from "./contexts/FigmaContext";
 function App() {
+  const { theme } = useContext(FigmaContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        height: "400px",
+        width: "600px",
+        margin: "auto",
+        backgroundColor: `${theme ? "rgb(32,42,68)" : "gray"}`,
+        color: `${theme ? "white" : "black"}`,
+        fontSize: "18px",
+      }}
+    >
+      <FigmaUi />
     </div>
   );
 }
