@@ -14,7 +14,7 @@ export default function Todo() {
     getTodos();
   }, [page]);
   function getTodos() {
-    fetch(`http://localhost:3001/todos?_page=${page}&_limit=2`)
+    fetch(`http://localhost:3000/todos?_page=${page}&_limit=5`)
       .then((data) => data.json())
       .then((data) => {
         console.log("json data", data);
@@ -56,14 +56,14 @@ export default function Todo() {
       {list.map((el) => (
         <div key={el.id}>{el.title}</div>
       ))}
-      <button
+      <button disabled ={page <=0 }
         onClick={() => {
           setPage(page - 1);
         }}
       >
         Prev
       </button>
-      <button
+      <button disabled ={page <=5 }
         onClick={() => {
           setPage(page + 1);
         }}
