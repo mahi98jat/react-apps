@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.completed {
+  background: transparent;
+  border: 2px solid teal;
+  height: 30px;
+  width: 380px;
+  color: teal;
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.not-completed {
+  background: transparent;
+  height: 30px;
+  width: 380px;
+  color: rgb(194, 120, 120);
+  text-decoration: line-through;
+  margin: 10px;
+  float: left;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 120, 120);
+}
+.show-completed{
+  height: 250px;
+  width: 600px;
+  border-radius: 10px;
+  border: 2px solid rgb(31, 9, 9);
+  margin: auto;
+  overflow: scroll;
+  
+}
+.todo-list{
+  height: 400px;
+  width: 800px;
+  border: 3px solid rgb(121, 38, 38);
+  overflow: scroll;
+  margin: auto;
+}
+button{
+  height: 50px;
+  width: 150px;
+  background:transparent;
+  border-color: teal;
+  margin: 10px;
+  border-radius: 10px;
+}
+input{
+  height: 50px;
+  width: 300px;
+  background:transparent;
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  border-bottom: 3px solid teal;
+  margin: 10px;
+  border-radius: 10px;
+}
+.cplt-item{
+ background: transparent;
+  height: 30px;
+  width: 400px;
+ 
+  margin: 10px 80px;
+  float: left;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 3px solid teal;
+  color:rgb(121, 38, 38)
+
+}
