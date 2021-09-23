@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 export default function ProductDetails() {
@@ -11,10 +12,11 @@ export default function ProductDetails() {
   let [{ name, price, id }] = products.filter((el) => {
     return el.id == param.id;
   });
+  //name === null ? setIsId(true) : setIsId(false);
   //console.log(param.id);
   //console.log(showProduct);
   return (
-    <div>
+    <div key={id}>
       <h1>{name}</h1>
       <p> Price:{price}/-</p>
     </div>
