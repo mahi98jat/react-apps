@@ -21,6 +21,7 @@ function App() {
         </Route>
         <Route path="/about-us">About Us Page</Route>
         <Route path="/payment">Payment Page</Route>
+        <Route>404 Page not found</Route>
       </Switch>
     </div>
   );
